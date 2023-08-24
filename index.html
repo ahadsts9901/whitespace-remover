@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"></meta>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+    <title>Code Uglifier</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+    <!-- icons cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"></link>
+    <!-- font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="main.css"></link>
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="flex flex-col justify-right items-center font-bold gap-[0em] p-[1em] bg-[#24232c] text-[#e6e5ea] w-[100vw] h-[100vh]">
+
+    <h2 class="w-[100%] text-center text-[1.3em] text-[#a4ffaf]">White Space Remover</h2>
+
+    <div class="w-[100%] h-[100%] flex justify-[center] items-center p-[1em] gap-[1em]">
+        <textarea id="input" placeholder="Enter Code Here..." class="p-[1em] h-[100%] w-[50%] bg-[#e6e5ea] text-left text-[#18171f]"></textarea>
+        <textarea id="output" placeholder="Minified Code..." class="p-[1em] h-[100%] w-[50%] bg-[#e6e5ea] text-left text-[#18171f]"></textarea>
+    </div>
+
+    <button type="button" id="button" class="w-[90%] p-[0.5em] text-[1em] rounded rounded-[10px] text-[#18171f] bg-[#a4ffaf]">Remove White Space</button>
+    <!-- javascript -->
+    <script src="./main.js"></script>
+</body>
+
+</html>

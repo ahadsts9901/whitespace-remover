@@ -1,0 +1,60 @@
+* {
+    font-family: "Space Mono", monospace;
+    outline: none;
+    box-sizing: border-box;
+}
+
+::placeholder {
+    color: #888!important;
+}
+
+i,
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0em!important;
+}
+
+textarea {
+    overflow: auto;
+}
+
+
+/* scrollbar */
+
+textarea::-moz-scrollbar {
+    height: 6px;
+    width: 6px;
+    border-radius: 10px;
+    background-color: #e6e5ea;
+}
+
+textarea::-moz-scrollbar-track {
+    border-radius: 10px;
+    background-color: #e6e5ea;
+}
+
+textarea::-moz-scrollbar-thumb {
+    background-color: #24232c;
+}
+
+textarea::-webkit-scrollbar {
+    height: 6px;
+    width: 6px;
+    border-radius: 10px;
+    background-color: #e6e5ea;
+}
+
+textarea::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #e6e5ea;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+}
